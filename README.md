@@ -20,7 +20,7 @@ This project focuses on analyzing sales data to understand business performance,
 
 ## Tools Used
 
-Power BI, Excel, Data Analysis, Data Visualization
+Power BI, Data Analysis, Data Visualization
 
 ## Outcome
 
