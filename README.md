@@ -1,83 +1,30 @@
-Decoding Customer Value:
-A SQL-Driven Retention Strategy
+# Sales Analytics
 
+This project focuses on analyzing sales data to understand business performance, customer behavior, and product-level trends.
 
+## What I Did
 
-Core Problem
-The brand has data but no intelligence built on top of it. Specifically, it cannot answer:
-• Who are the customers likely to still be buying two years from now, and what do they look like today?
-• Is the discount and promo program actually building a loyal customer base, or just attracting one-time
-bargain hunters?
-• Which product categories are associated with lower purchase history, and which ones appear most
-among high-frequency, high-tenure customers?
-• Are there cities or regions where the brand has strong traction that it has not yet deliberately targeted,
-and does that traction look different in terms of category preference, promo sensitivity, or average spend
-per customer?
-• What does the brand's best customer actually look like in terms of age, purchase habits, payment
-preferences, and satisfaction?
-Without answers to these questions, the brand is making marketing and product decisions based on gut
-feel rather than evidence.
+* Cleaned and prepared the sales dataset for analysis.
+* Analyzed sales and customer-related information to identify important patterns.
+* Studied **sales trends, customer value, product performance, and regional performance**.
+* Created interactive dashboards using **Power BI**.
+* Used visualizations and KPIs to make the analysis easier to understand.
 
+## Key Analysis
 
+* Overall sales and revenue performance
+* Customer purchasing behavior
+* Product and category performance
+* Regional sales performance
+* Trends and patterns in sales data
 
+## Tools Used
 
-Problem Statement
-Using only transactional and behavioral data, can the brand identify what its most valuable customers
-look like, measure how much of its current revenue depends on promotions, and build a data-backed
-retention strategy that reduces discount dependency without hurting sales?
+Power BI, Excel, Data Analysis, Data Visualization
 
+## Outcome
 
-
-
-Background
-A direct-to-consumer (D2C) fashion brand sells clothing, accessories, footwear, and outerwear across the
-United States. The brand has no physical stores and no third-party retailers — every customer relationship
-is managed directly by the brand itself.
-The brand has grown steadily and now has customer behavioral data covering around 3,900 customers.
-It runs a promotional discount program, supports multiple payment methods, and offers a range of
-shipping options. But it has never built a structured way to understand its customers beyond surface-level
-sales numbers.
-The founding team is at a critical point: they can keep running promotions reactively and hope customers
-keep coming back — or they can build something more deliberate. They have chosen to build.
-
-
-
-
-Scope of Analysis
-1) Data Preparation & Feature Engineering (Python):
-Clean and prepare the raw dataset. Then build the customer-level metrics the brand needs — but here
-is the constraint: you are not told which metrics to build. You need to decide what to measure and
-justify why those choices make sense for this business.
-As a starting point, think about what signals in the data could indicate value, satisfaction, and
-promotional reliance. But do not stop at computing numbers, explain the logic behind each metric you
-create and what it is actually trying to capture.
-One thing to keep in mind: metrics that sound analytical but do not lead to a decision are not useful.
-Every engineered feature should answer a question the brand actually cares about.
-
-
-
-
-2) Customer Segmentation & Analysis (SQL)
-Build a structured query layer to answer the brand's core business questions:
-What separates high-value customers from low-value ones, and which profiles show the strongest
-repeat purchase behavior?
-Which seasons and categories are associated with lower-tenure customers versus those with high
-previous purchase counts?
-Which geographies signal organic demand versus discount-driven volume?
-
-
-
-
-
-3) Founder Dashboard (Power BI)
-Build a clean, four-panel dashboard designed for a non-technical founding team:
-• Customer pyramid: showing how value is distributed across the customer base
-• Promo dependency vs. retention rate: plotted by segment to show who needs discounts to buy and
-who doesn't
-• Geographic opportunity map: not just which regions buy most, but which regions show high spend and
-low promo dependency, indicating genuine brand pull rather than discount-driven demand
-• Category funnel: showing which product categories are associated with low purchase history versus
-high purchase history, as a proxy for entry-point versus retention categories
+The dashboard provides a clear view of business performance and helps identify important sales and customer trends for better decision-making.
 
 
 
